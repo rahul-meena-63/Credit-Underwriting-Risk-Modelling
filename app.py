@@ -26,6 +26,7 @@ if uploaded_file is not None:
     if st.button("Predict Credit Risk"):
         try:
             predictions = best_model.predict(customer_data)
+            predictions = predictions + 1
             customer_data['Approved_flag'] = predictions
             
             st.success("✅ Credit Risk Evaluated Successfully!")
