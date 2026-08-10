@@ -29,6 +29,8 @@ A robust machine learning platform designed to help the banking sector categoriz
 * Python 3.9 or higher (Download: [python.org](https://www.python.org/))
 
 ### ⚙️ Local Setup
+## 🔗 Live Demo
+**[Launch the Credit Risk Web App Here](https://credit-risk-modelling-predictor-l6vb6mcaejpknq8hndzuwy.streamlit.app/)**
 
 ```bash
 # Clone the repository
