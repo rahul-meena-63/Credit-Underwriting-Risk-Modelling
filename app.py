@@ -17,7 +17,7 @@ def load_ml_model():
 best_model = load_ml_model()
 
 st.subheader("Upload Unseen Customer Data")
-uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+uploaded_file = st.file_uploader("Upload CSV file", type=["csv"],label_visibility="collapsed")
 
 if uploaded_file is not None:
     customer_data = pd.read_csv(uploaded_file)
